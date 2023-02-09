@@ -12,7 +12,7 @@ import guiaelectronico.model.Oracle;
 
 public class FileFactory {
     private String ruta = "D:\\oracleBD.txt";
-    private String contenido = "LLE,YVL,LOCALHOST,1521,BDNX1";
+    private String contenido = "LLE,YVL,LOCALHOST,1521,bdCelia";
     
     public Oracle crear(Oracle oracle){
         Oracle objO = null;
